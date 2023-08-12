@@ -8,6 +8,11 @@
 html{
     font-size: 87.5%;
     font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    min-width: 720px;
 }
 
 li{
@@ -38,15 +43,55 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    overflow: hidden;
 }
 .navbar a{
     font-weight: 600;
+    padding: 1rem;
 }
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: inherit;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 #About{
     display: flexbox;
     text-align: justify;
     padding: 20px;
     font-size: medium;
+    line-height: 1.7;
 }
 
 
@@ -58,4 +103,11 @@ footer p{
 
 footer img{
     width: 48px;
+}
+
+#Contact{
+    display: flexbox;
+    text-align: justify;
+    padding: 20px;
+    font-size: medium;
 }
