@@ -8,12 +8,24 @@
 html{
     font-size: 87.5%;
     font-family: 'Roboto', sans-serif;
-    
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: black;
+            }
+            
 
 body{
     min-width: 720px;
-    
+    background-image: url("imgs/bg.jpg");
 }
 
 li{
@@ -90,13 +102,14 @@ header{
 #About{
     display: flexbox;
     text-align: justify;
-    padding: 20px;
-    font-size: medium;
+    padding: 3vw;
+    font-size:large;
     line-height: 1.7;
 }
 
-
-
+footer{
+    padding: 0px 0px 10px 0px;
+}
 footer p{
     font-size: medium;
     text-align: center;
