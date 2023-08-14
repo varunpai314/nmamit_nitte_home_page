@@ -1,13 +1,17 @@
+@font-face {
+    font-family: Roboto;
+    src: url('Roboto/Roboto-Medium.ttf');
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 html{
-    font-size: 87.5%;
-    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+    
 }
 
 ::-webkit-scrollbar {
@@ -100,15 +104,20 @@ header{
   }
 
 #About{
+    margin: 3vw;
+    border: solid bisque;
     display: flexbox;
     text-align: justify;
     padding: 3vw;
-    font-size:large;
+    font-size:larger;
     line-height: 1.7;
+    background-color: #fffbf3;
 }
 
 footer{
     padding: 0px 0px 18px 0px;
+    color: #f1f1f1;
+    background-color: #000;
 }
 footer p{
     font-size: medium;
@@ -116,12 +125,14 @@ footer p{
 }
 
 footer img{
-    width: 48px;
+    width: 40px;
 }
 
+
 #Contact{
-    display: flexbox;
-    text-align: justify;
+    line-height: 34px;
     padding: 20px;
-    font-size: medium;
+}
+#Contact a{
+    color: white;
 }
