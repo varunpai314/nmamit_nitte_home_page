@@ -20,6 +20,10 @@ header div{
     background-color: rgba(250, 250, 250, 0.61);
 }
 
+header img{
+    padding: 20px;
+}
+
 header div p, address{
     color: #000;
     background-color: #f1f1f1cb;
